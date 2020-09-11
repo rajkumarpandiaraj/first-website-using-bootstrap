@@ -1,0 +1,62 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+.logo{
+  height: 40px;
+}
+.nav-link{
+  color: #000 !important;
+  font-weight: bold;
+}
+.active{
+  color: #6C757D !important;
+}
+.nav-container{
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+}
+.nav-item{
+  margin-left: 1rem;
+}
+.nav-item:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.carousel img{
+  max-width: 100%;
+  height: calc(100vh - 100px);
+}
+.carousel{
+  position: relative;
+  text-align: center;
+
+}
+.carousel-caption{
+margin-bottom: 12rem;
+margin-left: 12rem;
+width: 40%;
+background-color: rgba(0, 0, 0, 0.7);
+}
+.custom-border{
+  width: 150px;
+  margin: 0 auto 0.7rem;
+  height: 2px;
+  border-radius: 10px;
+  border: 2px solid #6C757D;
+}
+.bg-fixed{
+  height: 500px;
+  background: url('../img/matrix.jpg') no-repeat center /cover;
+  background-attachment: fixed;
+}
+.inner-text{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 2rem;
+}
+.imge img{
+  width: 25%;
+}
